@@ -29,7 +29,8 @@ O objetivo é ter uma página simples e responsiva para apresentar informações
 
 ## 📸 Demonstração
 
-*(adicione aqui prints ou gifs mostrando seu site em funcionamento)*
+![Descrição da imagem](assets/DevLinks%20Projeto%20Discover%20(1).png)
+
 
 ---
 
