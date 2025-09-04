@@ -29,7 +29,7 @@ O objetivo é ter uma página simples e responsiva para apresentar informações
 
 ## 📸 Demonstração
 
-![Descrição da imagem](assets/DevLinks%20Projeto%20Discover%20(1).png width="400" height="300")
+![Descrição da imagem](src="assets/DevLinks%20Projeto%20Discover%20(1).png" width="400" height="300")
 
 
 ---
