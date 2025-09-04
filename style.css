@@ -37,7 +37,7 @@ body {
     */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
   body {
     background: var(--bg-url-desktop) no-repeat center top / cover;
   }
@@ -94,18 +94,23 @@ body *{
     border-radius: 50%;
 
     position: absolute;
-    z-index: 1;
-    right: 0px;
-    transform: translateY(-50%);
     top: 50%;
+    z-index: 1;
+    left: 0;
+    transform: translateY(-50%);
     
+    animation: slide-out 0.5s forwards;
     
 
 }
 
 .light #switch button{
-     left: 0;
-    right: initial;
+    animation: slide-in 0.5s forwards;
+}
+
+#switch button:hover{
+    outline: 8px solid var(--hightlight-color);
+    box-shadow: 0 0 0 2px var(--text-color);
 }
 
 #switch span{
@@ -183,4 +188,26 @@ footer{
     text-align: center;
     font-size: 18px;
     padding: 24px 0px;
+}
+
+@keyframes slide-in{
+    from{
+        left: 0;
+        
+    }
+    to{
+        left: 50%;
+        
+    }  
+}
+
+@keyframes slide-out{
+    from{
+        left: 50%;
+        
+    }
+    to{
+        left: 0;
+        
+    }  
 }
